@@ -1,8 +1,8 @@
-﻿// Get the Input file and read lines.
-
+﻿#region "Read input file"
 string textFile = "../../../Input.txt";
-
 string[] lines = File.ReadAllLines(textFile);
+#endregion
+// ---Day 1: Calorie Counting ---
 
 // Part One
 // Find the Elf carrying the most Calories.
