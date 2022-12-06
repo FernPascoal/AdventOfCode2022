@@ -62,7 +62,7 @@ static int GetWinnerDefaultScore(string winnerShape)
     return winnerShape switch
     {
         "Rock" => 1,
-        "Paper"=> 2,
+        "Paper" => 2,
         "Scissors" => 3,
         _ => throw new NotImplementedException(),
     };
